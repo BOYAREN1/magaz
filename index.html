@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваша компания</title>
+    <link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="header.css">
+<link rel="stylesheet" href="hero.css">
+<link rel="stylesheet" href="products.css">
+<link rel="stylesheet" href="about.css">
+<link rel="stylesheet" href="footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo">SC</div>
+                    <span class="company-name">Ваша компания</span>
+                </div>
+                
+                <nav class="nav">
+                    <a href="#home" class="nav-link">Главная</a>
+                    <a href="#products" class="nav-link">Изделия</a>
+                    <a href="#about" class="nav-link">О нас</a>
+                </nav>
+                
+                <div class="header-contacts">
+                    <div class="phone">+7 (495) 123-45-67</div>
+                    <div class="address">ул. Портная, 15</div>
+                </div>
+                
+                <button class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Главный баннер -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Искусство пошива одежды</h1>
+                <p class="hero-subtitle">Создаем уникальные вещи, которые подчеркивают вашу индивидуальность</p>
+                
+                <form class="request-form">
+                    <h3>Оставьте заявку</h3>
+                    <div class="form-group">
+                        <input type="text" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Ваш телефон" required>
+                    </div>
+                    <button type="submit" class="btn-primary">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Остальные секции без изменений -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>О нашем бюро</h2>
+                <p>Создаем красоту с 2010 года</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Мы - команда профессиональных портных с многолетним опытом работы в сфере индивидуального пошива одежды. Наше бюро объединяет традиционные техники шитья с современными тенденциями моды.</p>
+                    
+                    <div class="features">
+                        <div class="feature">
+                            <h4>10+ лет</h4>
+                            <p>опыта в пошиве</p>
+                        </div>
+                        <div class="feature">
+                            <h4>5000+</h4>
+                            <p>довольных клиентов</p>
+                        </div>
+                        <div class="feature">
+                            <h4>100%</h4>
+                            <p>гарантия качества</p>
+                        </div>
+                    </div>
+                </div>
+                
+               
+                    <div class="image-placeholder">
+                        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab631c28adee2335a60f7d51f2327e91830114b287709d826bc35ddde9521bbfb&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+          
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+    <div class="container">
+        <div class="section-header">
+            <h2>Наши изделия</h2>
+            <p>Шьем с любовью к деталям</p>
+        </div>
+        
+        <div class="products-grid">
+            <a href="categories.html" class="product-link">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://i.pinimg.com/736x/bd/7a/23/bd7a236f80ef13d8d0465ef1a7088488.jpg" alt="Женская одежда">
+                    </div>
+                    <h3>Женская одежда</h3>
+                    <p>Платья, блузы, юбки и костюмы по индивидуальным меркам</p>
+                </div>
+            </a>
+            
+            <a href="categories.html" class="product-link">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://avatars.mds.yandex.net/i?id=8a6cf0f9fcb953980d8705394f7db693_l-4491734-images-thumbs&n=13" alt="Свадебные наряды">
+                    </div>
+                    <h3>Свадебные наряды</h3>
+                    <p>Создаем идеальные свадебные платья и костюмы</p>
+                </div>
+            </a>
+            
+            <a href="categories.html" class="product-link">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://sun9-6.userapi.com/impf/c849024/v849024540/a3782/FfIOyqV62rI.jpg?size=1000x715&quality=96&sign=aed9df0518f17ad949e7f14938a7e847&c_uniq_tag=YCvH2ce8UptgfCHs092RqCG4mWnhIY5T2rjG8CgSwHU&type=album" alt="Аксессуары">
+                    </div>
+                    <h3>Аксессуары</h3>
+                    <p>Сумки, ремни и другие аксессуары ручной работы</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo-section">
+                        <div class="logo">SC</div>
+                        <span class="company-name">StitchCraft</span>
+                    </div>
+                    <p>Профессиональное швейное бюро с индивидуальным подходом к каждому клиенту.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>+7 (495) 123-45-67</p>
+                    <p>ул. Портная, 15, Москва</p>
+                    <p>info@stitchcraft.ru</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Часы работы</h4>
+                    <p>Пн-Пт: 10:00 - 20:00</p>
+                    <p>Сб-Вс: 11:00 - 18:00</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Социальные сети</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">VK</a>
+                        <a href="#" class="social-link">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ваша компания. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

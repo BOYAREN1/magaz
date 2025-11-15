@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Женская одежда - StitchCraft</title>
+    <link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="header.css">
+<link rel="stylesheet" href="category.css">
+<link rel="stylesheet" href="footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <a href="index.html" style="text-decoration: none; display: flex; align-items: center; gap: 12px;">
+                        <div class="logo">SC</div>
+                        <span class="company-name">Ваша компания</span>
+                    </a>
+                </div>
+                
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Главная</a>
+                    <a href="index.html#products" class="nav-link">Изделия</a>
+                    <a href="index.html#about" class="nav-link">О нас</a>
+                </nav>
+                
+                <div class="header-contacts">
+                    <div class="phone">+7 (495) 123-45-67</div>
+                    <div class="address">ул. Портная, 15</div>
+                </div>
+                
+                <button class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Хлебные крошки -->
+    <section class="breadcrumbs">
+        <div class="container">
+            <nav class="breadcrumbs-nav">
+                <a href="index.html">Главная</a>
+                <span class="breadcrumbs-separator">/</span>
+                <a href="index.html#products">Изделия</a>
+                <span class="breadcrumbs-separator">/</span>
+                <span class="breadcrumbs-current">Женская одежда</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Заголовок категории -->
+    <section class="category-header">
+        <div class="container">
+            <div class="category-info">
+                <h1>Женская одежда</h1>
+                <p>Индивидуальный пошив женской одежды премиум-класса. Создаем уникальные вещи, которые подчеркивают вашу индивидуальность и безупречно сидят по фигуре.</p>
+                <div class="category-stats">
+                    <div class="stat">
+                        <span class="stat-number">48</span>
+                        <span class="stat-label">моделей</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">12</span>
+                        <span class="stat-label">тканей</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">недели</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Фильтры -->
+    <section class="filters">
+        <div class="container">
+            <div class="filters-content">
+                <div class="filter-group">
+                    <label>Тип одежды:</label>
+                    <select class="filter-select">
+                        <option value="all">Все</option>
+                        <option value="dresses">Платья</option>
+                        <option value="blouses">Блузы</option>
+                        <option value="skirts">Юбки</option>
+                        <option value="suits">Костюмы</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Стиль:</label>
+                    <select class="filter-select">
+                        <option value="all">Все</option>
+                        <option value="classic">Классический</option>
+                        <option value="modern">Современный</option>
+                        <option value="evening">Вечерний</option>
+                        <option value="business">Деловой</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Цена:</label>
+                    <select class="filter-select">
+                        <option value="all">Любая</option>
+                        <option value="budget">До 15 000 ₽</option>
+                        <option value="medium">15 000 - 30 000 ₽</option>
+                        <option value="premium">От 30 000 ₽</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Сетка товаров -->
+    <section class="products-grid-section">
+        <div class="container">
+            <div class="products-grid-category">
+                <!-- Товар 1 -->
+                <div class="product-card-category">
+                    <a href="item.html" class="product-link">
+                        <div class="product-image-category">
+                            <img src="https://i.pinimg.com/736x/b2/f0/02/b2f002d617fe83d7dee90ffcfee72748.jpg" alt="Вечернее платье Афина" loading="lazy">
+                            <div class="product-badge">Хит</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Вечернее платье</h3>
+                            <p class="product-description">Шелковое платье с кружевной отделкой для особых случаев</p>
+                            <div class="product-price">25 000 ₽</div>
+                            <div class="product-meta">
+                                <span class="material">Шелк, кружево</span>
+                                <span class="time">4 недели</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Товар 2 -->
+                <div class="product-card-category">
+                    <a href="item.html" class="product-link">
+                        <div class="product-image-category">
+                            <img src="https://i.pinimg.com/736x/ff/81/2f/ff812fda20e919e198b98435ee2f0d0b.jpg" alt="Деловой костюм Милена" loading="lazy">
+                            <div class="product-badge new">Новинка</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Деловой костюм</h3>
+                            <p class="product-description">Костюм из итальянской шерсти для деловых встреч</p>
+                            <div class="product-price">32 000 ₽</div>
+                            <div class="product-meta">
+                                <span class="material">Шерсть, вискоза</span>
+                                <span class="time">3 недели</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Товар 3 -->
+                <div class="product-card-category">
+                    <a href="item.html" class="product-link">
+                        <div class="product-image-category">
+                            <img src="https://i.pinimg.com/736x/a1/f0/10/a1f01084302cda0a837195397d006196.jpg" alt="Летняя блуза Жасмин" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3>Летняя блуза</h3>
+                            <p class="product-description">Легкая блуза из натурального хлопка с вышивкой</p>
+                            <div class="product-price">12 000 ₽</div>
+                            <div class="product-meta">
+                                <span class="material">Хлопок, шифон</span>
+                                <span class="time">2 недели</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Товар 4 -->
+                <div class="product-card-category">
+                    <a href="item.html" class="product-link">
+                        <div class="product-image-category">
+                            <img src="https://i.yavitrina.ru/yubka-reversal-razmer-m-sinii-293643384" alt="Юбка-карандаш Классик" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3>Юбка "Классик"</h3>
+                            <p class="product-description">Универсальная юбка для офиса и повседневной носки</p>
+                            <div class="product-price">15 000 ₽</div>
+                            <div class="product-meta">
+                                <span class="material">Костюмная ткань</span>
+                                <span class="time">2 недели</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Товар 5 -->
+                <div class="product-card-category">
+                    <a href="item.html" class="product-link">
+                        <div class="product-image-category">
+                            <img src="https://i.pinimg.com/736x/e5/44/22/e5442268405b7474ac4f132b86915b23.jpg" alt="Коктейльное платье Вечер" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <h3>Коктейльное платье "Вечер"</h3>
+                            <p class="product-description">Элегантное платье для вечеринок и мероприятий</p>
+                            <div class="product-price">28 000 ₽</div>
+                            <div class="product-meta">
+                                <span class="material">Атлас, гипюр</span>
+                                <span class="time">3 недели</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Товар 6 -->
+                <div class="product-card-category">
+                    <a href="item.html" class="product-link">
+                        <div class="product-image-category">
+                            <img src="https://i.pinimg.com/1200x/8d/40/f6/8d40f64844136b4761015e1ea16a9bbb.jpg" alt="Пальто Осень" loading="lazy">
+                            <div class="product-badge">Хит</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Пальто "Осень"</h3>
+                            <p class="product-description">Теплое пальто из кашемира с классическим кроем</p>
+                            <div class="product-price">45 000 ₽</div>
+                            <div class="product-meta">
+                                <span class="material">Кашемир, шерсть</span>
+                                <span class="time">5 недель</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Пагинация -->
+            <div class="pagination">
+                <a href="#" class="page-link active">1</a>
+                <a href="#" class="page-link">2</a>
+                <a href="#" class="page-link">3</a>
+                <a href="#" class="page-link next">→</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA секция -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Не нашли подходящую модель?</h2>
+                <p>Мы создадим индивидуальный дизайн именно для вас</p>
+                <a href="index.html#home" class="btn-primary">Обсудить проект</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo-section">
+                        <div class="logo">SC</div>
+                        <span class="company-name">StitchCraft</span>
+                    </div>
+                    <p>Профессиональное швейное бюро с индивидуальным подходом к каждому клиенту.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>+7 (495) 123-45-67</p>
+                    <p>ул. Портная, 15, Москва</p>
+                    <p>info@stitchcraft.ru</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Часы работы</h4>
+                    <p>Пн-Пт: 10:00 - 20:00</p>
+                    <p>Сб-Вс: 11:00 - 18:00</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Социальные сети</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">VK</a>
+                        <a href="#" class="social-link">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ваша компания. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
